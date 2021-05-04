@@ -1,0 +1,19 @@
+{
+	"name": "natours",
+	"version": "1.0.0",
+	"description": "A tour website made by Jonas in Advanced CSS course",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest",
+		"compile:sass": "node-sass sass/main.scss css/style.css --watch"
+	},
+	"keywords": [
+		"natours",
+		"tours"
+	],
+	"author": "Jageshwar Sah",
+	"license": "ISC",
+	"devDependencies": {
+		"node-sass": "^5.0.0"
+	}
+}
